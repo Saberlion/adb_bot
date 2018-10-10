@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 from common.auto_adb import auto_adb
-from common.screenshot import check_screenshot, pull_screenshot
-from qiniu import Auth
+from common.screenshot import  pull_screenshot
+
 
 adb = auto_adb()
 
