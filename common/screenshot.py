@@ -10,6 +10,7 @@ from common.auto_adb import auto_adb
 SCREENSHOT_WAY = 0
 adb = auto_adb()
 
+
 def pull_screenshot():
     """
     获取屏幕截图，目前有 0 1 2 3 四种方法，未来添加新的平台监测方法时，
